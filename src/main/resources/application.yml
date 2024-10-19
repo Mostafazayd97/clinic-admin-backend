@@ -7,3 +7,14 @@ spring:
         hibernate:
             ddl-auto: update
         show-sql: true
+
+
+security:
+  jwt:
+    secret-key: "28840d99b18d2474d892ab4f7063bd7946fc61c081ec14b99362a4e6cf57814a"
+    expiration-time: 3600
+
+
+logging:
+  level:
+    root: INFO
